@@ -1,5 +1,11 @@
 # COE70AB-Capstone-Project
-This is a Github Repository for my Capstone Project at Toronto Metropolitan University. This will be used to store the current Python code for the project and where any new changes will be made. The list of dependencies below will be updated as the project moves forward. 
+This is a Github Repository for my Capstone Project at Toronto Metropolitan University. This will be used to store the current Python code for the project and where any new changes will be made. The list of dependencies below will be updated as the project moves forward. <br /> <br />
+
+The Capstone project is created in a Python Virtual Environment with the use of the **virtualenv** library. For more information on that library head to https://virtualenv.pypa.io/en/latest/. <br /> <br />
+
+As the RaspberryPi is using a 64bit OS, the original **picamera** library is unusable which is why we are now using the updated (**beta version**) **picamera2** library which is able to work on 64bit systems. For more information head to the following links below: <br />
+- **Github Page**: https://github.com/raspberrypi/picamera2
+- **Manual**: https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf
 
 ## Current Python Dependencies
 ### Tested
