@@ -9,6 +9,12 @@ As the RaspberryPi is using a 64bit OS, the original **picamera** library is unu
 - **Github Page**: https://github.com/raspberrypi/picamera2
 - **Manual**: https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf
 
+## Project Task Check-List
+- [x] Get Picamera working with the **picamera2** library
+- [x] Get the servo motors working with the **pigpio** library
+- [x] Picamera + Servo
+- [x] Implement Harsanjam's drowsiness detection code with **OpenCV-Python** & **Dilib**
+
 ## Current Python Dependencies
 ### Tested
 - picamera2  (Version: 0.3.12)
@@ -20,5 +26,4 @@ As the RaspberryPi is using a 64bit OS, the original **picamera** library is unu
 - dlib       (Version 19.24.2)
 - python3-opencv (Version 4.5.1+dfsg-5) **(Installed using apt-get rather than pip3)**
   
-
 ### Un-Tested
