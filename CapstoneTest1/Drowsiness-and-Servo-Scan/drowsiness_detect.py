@@ -94,25 +94,48 @@ def start_drowsiness_detect():
     transform = Transform(vflip=1,hflip=1)))
     picam2.start()
     time.sleep(1.0)
+    
+    start_time = time.time()
+    frame_count = 0
 
     while True:
 
         frame = picam2.capture_array()
-        frame = imutils.resize(frame, width=450)
+        frame = cv2.resize(frame, (400,400))
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        
+        # FPS COUNTER - Added By Colin #
+        cv2.putText(frame, f"FPS: {frame_count / (time.time() - start_time):.2f}", (10, 390), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
+        frame_count += 1
 
         #rects = detector(gray, 0)
         rects = detector.detectMultiScale(gray, scaleFactor=1.1, 
             minNeighbors=5, minSize=(30, 30),
             flags=cv2.CASCADE_SCALE_IMAGE)
-
+        
         #for rect in rects:
         for (x, y, w, h) in rects:
             rect = dlib.rectangle(int(x), int(y), int(x + w),int(y + h))
-            
             shape = predictor(gray, rect)
             shape = face_utils.shape_to_np(shape)
-
+            
+            # CENTER FACE COORDINATES -- Added by Colin #
+            # Takes the x and y values of the top left corner of the rectagle created by OpenCV
+            # Add's the (width/2) and (height/2) to the (0,0) coordinate of the box to get the center
+            # of the rectangle surrounding the face 
+            center_face = (int(x+w/2), int(y+h/2))
+            cv2.circle(frame, center_face, 1, (0, 0, 255), 3) 
+            #print(face_info)
+            
+            
+            # CENTER LINES -- Added by Colin #
+            # Draws a horizontal and vertical lines on the frame to help get the center of the face
+            # Used for debugging
+            y_level = 200 
+            x_level = 200
+            cv2.line(frame, (0, y_level), (400, y_level), (255, 255, 255), 1)
+            cv2.line(frame, (x_level, 0), (x_level, 400), (255, 255, 255), 1)
+            
             eye = final_ear(shape)
             ear = eye[0]
             leftEye = eye [1]
@@ -139,7 +162,7 @@ def start_drowsiness_detect():
                         t.start()
 
                     cv2.putText(frame, "DROWSINESS ALERT!", (10, 30),
-                                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
             else:
                 COUNTER = 0
@@ -147,7 +170,7 @@ def start_drowsiness_detect():
 
             if (distance > YAWN_THRESH):
                     cv2.putText(frame, "Yawn Alert", (10, 30),
-                                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                     if alarm_status2 == False and saying == False:
                         alarm_status2 = True
                         t = Thread(target=alarm, args=('take some fresh air sir',))
@@ -157,10 +180,9 @@ def start_drowsiness_detect():
                 alarm_status2 = False
 
             cv2.putText(frame, "EAR: {:.2f}".format(ear), (300, 30),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
             cv2.putText(frame, "YAWN: {:.2f}".format(distance), (300, 60),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
         cv2.imshow("Frame", frame)
         key = cv2.waitKey(1) & 0xFF

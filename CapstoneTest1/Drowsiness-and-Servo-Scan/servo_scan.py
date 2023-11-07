@@ -53,6 +53,14 @@ class Servo():
 
     def map(self, x, in_min, in_max, out_min, out_max):
         return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+  
+  
+# SEARCHING CODE #
+# Takes in the class objects "pan" and "tilt" from the main.py file
+
+# TO-DO #
+# 1. We need to add a way to determine if a person has been detected. Set it to a variable and when that variable 
+#       is greater > 0 we switch and start following the persons face with the follow_face() function.   
         
 def searching(pan, tilt):
     people = 0
@@ -84,4 +92,47 @@ def searching(pan, tilt):
                 print("")
         elif (y_angle == -40):
             exit(0)
+            
+            
+# OLD CODE USING SUNFOUNDER VILIB #
+# NEED TO CHANGE TO THE UPDATED CODE #
+
+# 1. For this to work, we need to take in the x and y coordinates of the center of the persons face. 
+# 2. We also need a way to determine if a person is being tracked by the face detection and set that
+#       as a variable in order to 
+
+
+def follow_face():
+    def move_x():
+        delta_x = (320 - Vilib.detect_obj_parameter['human_x'])
+        if (delta_x < -100):
+            new_angle = pan.get_angle() - 2
+            pan.set_angle(new_angle)
+        elif (delta_x > 100):
+            new_angle = pan.get_angle() + 2
+            pan.set_angle(new_angle)
+    
+    def move_y():
+        delta_y = (240 - Vilib.detect_obj_parameter['human_y'])
+        if (delta_y < -50):
+            new_angle = tilt.get_angle() + 2
+            tilt.set_angle(new_angle)
+        elif (delta_y > 50):
+            new_angle = tilt.get_angle() - 2
+            tilt.set_angle(new_angle)
+    
+    def track_human():
+        print("I HAVE FOUND A PERSON!!!!! YAY!!")
+        sleep(5)
+        while True:
+            pan.object_show()
+            sleep(0.09)
+            delta_x = (320 - Vilib.detect_obj_parameter['human_x'])
+            delta_y = (240 - Vilib.detect_obj_parameter['human_y'])
+            print("{0}, {1}".format(delta_x, delta_y))
+            move_x()
+            move_y()
+            if(pan.get_num_human() < 1):
+                searching()
+    
 
