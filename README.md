@@ -13,7 +13,8 @@ As the RaspberryPi is using a 64bit OS, the original **picamera** library is unu
 - [x] Get Picamera working with the **picamera2** library
 - [x] Get the servo motors working with the **pigpio** library
 - [x] Picamera + Servo
-- [x] Implement Harsanjam's drowsiness detection code with **OpenCV-Python** & **Dilib**
+- [x] Implement Harsanjam's Drowsiness Detection Code with **OpenCV-Python** & **Dilib**
+- [ ] Harsanjam's Drowsiness Detection Code + Servo scan function
 
 ## Current Python Dependencies
 ### Tested
