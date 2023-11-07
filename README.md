@@ -11,16 +11,14 @@ As the RaspberryPi is using a 64bit OS, the original **picamera** library is unu
 
 ## Current Python Dependencies
 ### Tested
-**Works with the following scripts: <br /> 
-"Camera_Test.py" <br /> 
-"Servo_Scan_Test.py" <br /> 
-"Camera_Servo.py"** <br />
 - picamera2  (Version: 0.3.12)
 - pigpio     (Version 1.78)
 - numpy      (Version 1.26.1)
 - scipy      (Version 1.11.3)
 - libcamera  (Built-in with RaspberryPi)
+- imutils    (Version 0.5.4)
+- dlib       (Version 19.24.2)
+- python3-opencv (Version 4.5.1+dfsg-5) **(Installed using apt-get rather than pip3)**
+  
 
 ### Un-Tested
-- opencv-python  (Version 4.8.1.78)
-- dlib           (Version 19.24.2)
