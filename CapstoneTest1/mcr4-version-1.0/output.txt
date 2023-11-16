@@ -1,0 +1,150 @@
+Date: 2023-11-15 22:10:36.297852, Interval: 3.574, Type:Normal
+Date: 2023-11-15 22:10:39.544417, Interval: 2.594, Type:Yawning
+Date: 2023-11-15 22:10:42.316996, Interval: 2.772, Type:Normal
+Date: 2023-11-15 22:31:51.340720, Interval: 7.638, Type: Eyes not on road
+Date: 2023-11-15 22:36:55.983265, Interval: 5.708, Type: Eyes not on road
+Date: 2023-11-15 22:38:04.929401, Interval: 3.769, Type: Eyes not on road
+Date: 2023-11-15 22:38:09.129597, Interval: 4.188, Type:Normal
+Date: 2023-11-15 22:56:42.782226, Interval: 3.454, Type: Eyes not on road
+Date: 2023-11-15 22:56:45.814459, Interval: 3.021, Type:Normal
+Date: 2023-11-15 23:07:26.434093, Interval: 4.313, Type: Eyes not on road
+Date: 2023-11-15 23:10:32.127970, Interval: 5.006, Type: Eyes not on road
+Date: 2023-11-15 23:11:09.850974, Interval: 5.511, Type: Eyes not on road
+Date: 2023-11-15 23:13:44.667657, Interval: 32.134, Type: Eyes not on road
+Date: 2023-11-15 23:13:54.365283, Interval: 6.625, Type: Eyes not on road
+Date: 2023-11-15 23:16:05.155888, Interval: 19.952, Type: Eyes not on road
+Date: 2023-11-15 23:16:56.960437, Interval: 4.171, Type: Eyes not on road
+Date: 2023-11-15 23:17:00.638318, Interval: 3.667, Type:Normal
+Date: 2023-11-15 23:21:18.184742, Interval: 3.48, Type: Eyes not on road
+Date: 2023-11-15 23:22:26.493188, Interval: 3.146, Type: Eyes not on road
+Date: 2023-11-15 23:26:35.706634, Interval: 19.552, Type: Eyes not on road
+Date: 2023-11-15 23:26:41.655396, Interval: 3.798, Type: Eyes not on road
+Date: 2023-11-15 23:29:03.544454, Interval: 19.976, Type: Eyes not on road
+Date: 2023-11-15 23:29:07.280368, Interval: 3.724, Type:Normal
+Date: 2023-11-15 23:29:09.784003, Interval: 1.578, Type:Normal
+Date: 2023-11-15 23:29:19.212888, Interval: 4.768, Type:Normal
+Date: 2023-11-15 23:35:53.737415, Interval: 20.177, Type: Eyes not on road
+Date: 2023-11-15 23:37:37.757000, Interval: 25.678, Type: Eyes not on road
+Date: 2023-11-15 23:39:28.599011, Interval: 25.986, Type: Eyes not on road
+Date: 2023-11-15 23:42:05.585400, Interval: 19.977, Type: Eyes not on road
+Date: 2023-11-15 23:48:45.004724, Interval: 15.455, Type:Normal
+Date: 2023-11-15 23:50:48.258940, Interval: 18.979, Type:Normal
+Date: 2023-11-15 23:50:55.945901, Interval: 7.279, Type:Normal
+Date: 2023-11-15 23:52:54.733261, Interval: 15.258, Type:Normal
+Date: 2023-11-15 23:54:46.979320, Interval: 27.149, Type:Normal
+Date: 2023-11-15 23:54:49.984777, Interval: 2.737, Type:Yawning
+Date: 2023-11-15 23:54:57.289784, Interval: 7.305, Type:Normal
+Date: 2023-11-15 23:55:00.939502, Interval: 3.258, Type:Normal
+Date: 2023-11-15 23:55:02.522886, Interval: 1.182, Type:Normal
+Date: 2023-11-15 23:55:04.004329, Interval: 1.346, Type:Normal
+Date: 2023-11-15 23:56:53.665938, Interval: 11.266, Type:Normal
+Date: 2023-11-15 23:56:54.723742, Interval: 1.058, Type:Yawning
+Date: 2023-11-15 23:56:56.718866, Interval: 1.724, Type:Yawning
+Date: 2023-11-15 23:56:58.172767, Interval: 1.318, Type:Yawning
+Date: 2023-11-15 23:57:12.394691, Interval: 14.222, Type:Normal
+Date: 2023-11-15 23:57:59.188943, Interval: 3.61, Type:Normal
+Date: 2023-11-15 23:58:01.488675, Interval: 2.3, Type:Yawning
+Date: 2023-11-15 23:58:06.200651, Interval: 3.281, Type:Normal
+Date: 2023-11-15 23:58:09.278432, Interval: 2.676, Type:Drowsy
+Date: 2023-11-15 23:58:16.616675, Interval: 4.665, Type:Normal
+Date: 2023-11-15 23:58:26.234766, Interval: 3.7, Type:Normal
+Date: 2023-11-15 23:58:30.176148, Interval: 1.461, Type:Normal
+Date: 2023-11-15 23:58:59.371911, Interval: 5.513, Type:Normal
+Date: 2023-11-15 23:59:01.873615, Interval: 2.502, Type:Yawning
+Date: 2023-11-15 23:59:06.669958, Interval: 4.396, Type:Normal
+Date: 2023-11-15 23:59:11.110205, Interval: 4.44, Type:Drowsy
+Date: 2023-11-15 23:59:15.479081, Interval: 3.163, Type:Drowsy
+Date: 2023-11-15 23:59:24.073851, Interval: 5.806, Type:Normal
+Date: 2023-11-15 23:59:33.374593, Interval: 9.03, Type:Normal
+Date: 2023-11-15 23:59:35.377817, Interval: 2.003, Type:Drowsy
+Date: 2023-11-15 23:59:38.634636, Interval: 3.122, Type:Drowsy
+Date: 2023-11-16 00:00:05.542134, Interval: 4.173, Type:Normal
+Date: 2023-11-16 00:00:06.883053, Interval: 1.341, Type:Yawning
+Date: 2023-11-16 00:00:07.954186, Interval: 0.937, Type:Yawning
+Date: 2023-11-16 00:00:09.944717, Interval: 1.165, Type:Normal
+Date: 2023-11-16 00:00:10.459301, Interval: 0.515, Type:Yawning
+Date: 2023-11-16 00:00:12.141715, Interval: 1.161, Type:Yawning
+Date: 2023-11-16 00:00:14.704000, Interval: 2.562, Type:Normal
+Date: 2023-11-16 00:06:12.135126, Interval: 3.784, Type:Normal
+Date: 2023-11-16 00:06:18.529655, Interval: 4.411, Type:Yawning
+Date: 2023-11-16 00:06:21.288012, Interval: 2.105, Type:Drowsy
+Date: 2023-11-16 00:06:26.975298, Interval: 4.096, Type:Yawning
+Date: 2023-11-16 00:07:07.608816, Interval: 4.292, Type:Normal
+Date: 2023-11-16 00:07:09.851427, Interval: 1.308, Type:Yawning
+Date: 2023-11-16 00:07:16.337257, Interval: 6.355, Type:Yawning
+Date: 2023-11-16 00:07:18.711928, Interval: 2.374, Type:Normal
+Date: 2023-11-16 00:07:45.068477, Interval: 4.372, Type:Normal
+Date: 2023-11-16 00:07:48.074834, Interval: 1.711, Type:Yawning
+Date: 2023-11-16 00:07:50.169825, Interval: 1.317, Type:Yawning
+Date: 2023-11-16 00:07:51.232902, Interval: 1.063, Type:Normal
+Date: 2023-11-16 00:07:53.604929, Interval: 1.706, Type:Yawning
+Date: 2023-11-16 00:07:54.899864, Interval: 1.036, Type:Normal
+Date: 2023-11-16 00:07:58.528481, Interval: 3.629, Type:Drowsy
+Date: 2023-11-16 00:07:59.716073, Interval: 1.187, Type:Normal
+Date: 2023-11-16 00:08:03.892621, Interval: 2.73, Type:Yawning
+Date: 2023-11-16 00:08:06.494784, Interval: 1.038, Type:Normal
+Date: 2023-11-16 00:08:09.756996, Interval: 3.262, Type:Yawning
+Date: 2023-11-16 00:08:13.294952, Interval: 3.538, Type:Normal
+Date: 2023-11-16 00:08:14.971117, Interval: 1.028, Type:Yawning
+Date: 2023-11-16 00:08:17.872791, Interval: 2.773, Type:Yawning
+Date: 2023-11-16 00:16:14.408978, Interval: 13.246, Type:Normal
+Date: 2023-11-16 00:16:32.756809, Interval: 17.131, Type:Normal
+Date: 2023-11-16 00:16:36.403073, Interval: 2.854, Type:Normal
+Date: 2023-11-16 00:16:40.461254, Interval: 3.405, Type:Yawning
+Date: 2023-11-16 00:16:43.727762, Interval: 2.349, Type:Normal
+Date: 2023-11-16 00:16:47.071885, Interval: 3.344, Type:Yawning
+Date: 2023-11-16 00:16:53.016246, Interval: 4.735, Type:Normal
+Date: 2023-11-16 00:16:59.281117, Interval: 6.265, Type:Drowsy
+Date: 2023-11-16 00:17:01.144257, Interval: 1.863, Type:Normal
+Date: 2023-11-16 00:17:04.295186, Interval: 3.151, Type:Yawning
+Date: 2023-11-16 00:17:11.076818, Interval: 4.179, Type:Drowsy
+Date: 2023-11-16 00:17:12.245295, Interval: 1.168, Type:Normal
+Date: 2023-11-16 00:17:19.885121, Interval: 3.122, Type:Drowsy
+Date: 2023-11-16 00:17:23.852450, Interval: 3.038, Type:Normal
+Date: 2023-11-16 00:19:26.823692, Interval: 3.102, Type:Drowsy
+Date: 2023-11-16 00:19:29.553223, Interval: 2.598, Type:Drowsy
+Date: 2023-11-16 00:19:31.755141, Interval: 2.073, Type:Drowsy
+Date: 2023-11-16 00:19:35.363098, Interval: 2.449, Type:Drowsy
+Date: 2023-11-16 00:19:36.394290, Interval: 1.031, Type:Normal
+Date: 2023-11-16 00:19:41.712700, Interval: 1.711, Type:Normal
+Date: 2023-11-16 00:19:44.475223, Interval: 2.763, Type:Drowsy
+Date: 2023-11-16 00:20:00.089722, Interval: 1.295, Type:Normal
+Date: 2023-11-16 00:20:02.179890, Interval: 1.035, Type:Normal
+Date: 2023-11-16 00:20:09.916807, Interval: 1.052, Type:Normal
+Date: 2023-11-16 00:20:15.183285, Interval: 1.214, Type:Normal
+Date: 2023-11-16 00:20:44.190561, Interval: 23.61, Type: Eyes not on road
+Date: 2023-11-16 00:20:53.929942, Interval: 9.731, Type:Normal
+Date: 2023-11-16 00:20:56.688202, Interval: 2.502, Type:Normal
+Date: 2023-11-16 00:20:58.284940, Interval: 1.451, Type:Normal
+Date: 2023-11-16 00:21:02.411785, Interval: 3.064, Type:Yawning
+Date: 2023-11-16 00:21:05.981643, Interval: 1.052, Type:Normal
+Date: 2023-11-16 00:21:12.294844, Interval: 4.296, Type:Normal
+Date: 2023-11-16 00:21:16.542276, Interval: 3.322, Type:Drowsy
+Date: 2023-11-16 00:21:18.017956, Interval: 1.475, Type:Normal
+Date: 2023-11-16 00:21:24.445735, Interval: 3.276, Type:Normal
+Date: 2023-11-16 00:21:26.141893, Interval: 1.565, Type:Normal
+Date: 2023-11-16 00:21:35.640495, Interval: 2.176, Type:Normal
+Date: 2023-11-16 00:21:41.187549, Interval: 1.892, Type:Normal
+Date: 2023-11-16 00:21:55.684702, Interval: 2.287, Type:Normal
+Date: 2023-11-16 14:46:14.770655, Interval: 26.235, Type: Eyes not on road
+Date: 2023-11-16 14:46:35.018776, Interval: 19.958, Type:Normal
+Date: 2023-11-16 14:46:38.284977, Interval: 3.129, Type:Normal
+Date: 2023-11-16 14:46:42.998406, Interval: 3.668, Type:Normal
+Date: 2023-11-16 14:48:40.545290, Interval: 9.309, Type:Normal
+Date: 2023-11-16 14:48:45.019614, Interval: 2.902, Type:Yawning
+Date: 2023-11-16 14:48:47.776831, Interval: 2.62, Type:Normal
+Date: 2023-11-16 14:48:53.679588, Interval: 1.038, Type:Normal
+Date: 2023-11-16 14:49:03.447336, Interval: 2.238, Type:Normal
+Date: 2023-11-16 14:49:04.851248, Interval: 1.267, Type:Normal
+Date: 2023-11-16 14:49:10.489460, Interval: 5.113, Type:Drowsy
+Date: 2023-11-16 14:55:07.600026, Interval: 2.222, Type:Normal
+Date: 2023-11-16 14:55:09.415781, Interval: 1.162, Type:Normal
+Date: 2023-11-16 14:55:11.620599, Interval: 2.075, Type:Normal
+Date: 2023-11-16 14:55:13.714753, Interval: 1.831, Type:Normal
+Date: 2023-11-16 14:55:19.643035, Interval: 1.011, Type:Normal
+Date: 2023-11-16 14:55:22.221031, Interval: 1.033, Type:Normal
+Date: 2023-11-16 14:55:58.451778, Interval: 24.64, Type: Eyes not on road
+Date: 2023-11-16 14:55:59.739734, Interval: 37.032, Type:Normal
+Date: 2023-11-16 14:56:06.533265, Interval: 6.663, Type:Normal
+Date: 2023-11-16 14:56:10.245678, Interval: 3.572, Type:Normal
+Date: 2023-11-16 14:56:13.398262, Interval: 2.897, Type:Normal
