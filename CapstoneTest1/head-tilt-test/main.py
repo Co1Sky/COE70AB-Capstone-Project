@@ -49,6 +49,7 @@ while True:
         angle = np.arccos(cosine)
         angle = round(np.degrees(angle))
         cv2.putText(frame, str(angle), (mid_x, y-10), FONT_HERSHEY_COMPLEX_SMALL, 1.25, (0, 0, 255), 1)
+        cv2.putText(frame, str(distVectorA[1]), (mid_x, y - 30), FONT_HERSHEY_COMPLEX_SMALL, 1.25, (0, 0, 255), 1)
 
     # Display the frame
     cv2.imshow('Head Tilt Detection', frame)
