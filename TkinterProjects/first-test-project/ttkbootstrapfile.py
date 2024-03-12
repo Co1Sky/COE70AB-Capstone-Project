@@ -1,48 +1,44 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QVBoxLayout, QWidget
-from PyQt5.QtGui import QFont
-class LoginWindow(QMainWindow):
-    def __init__(self):
-        super().__init__()
+import tkinter as tk
+from tkinter import ttk
+from ttkbootstrap import Style
 
-        self.setWindowTitle("Modern Login")
-        self.setGeometry(100, 100, 300, 150)
+def login():
+    username = username_entry.get()
+    password = password_entry.get()
+    # Here you can implement your login logic
+    print("Username:", username)
+    print("Password:", password)
+    # For demonstration purposes, just printing the inputs
 
-        central_widget = QWidget()
-        self.setCentralWidget(central_widget)
+root = tk.Tk()
+root.title("Modern Login")
 
-        layout = QVBoxLayout()
+# Apply ttkbootstrap style
+style = Style(theme='flatly')
 
-        # Username Label and Entry
-        self.username_label = QLabel("Username:")
-        layout.addWidget(self.username_label)
-        self.username_entry = QLineEdit()
-        layout.addWidget(self.username_entry)
+# Creating a container frame
+container = ttk.Frame(root, padding="20", borderwidth=2, relief="solid")
+container.grid(row=0, column=0, sticky="nsew")
 
-        # Password Label and Entry
-        self.password_label = QLabel("Password:")
-        layout.addWidget(self.password_label)
-        self.password_entry = QLineEdit()
-        self.password_entry.setEchoMode(QLineEdit.Password)
-        layout.addWidget(self.password_entry)
+# Username Label and Entry
+username_label = ttk.Label(container, text="Username:", borderwidth=1, relief="solid")
+username_label.grid(row=0, column=0, pady=(10, 5), sticky="w")
+Style.configure('custom.TEntry', background='green', foreground='white', font=('Helvetica', 24))
+username_entry = ttk.Entry(container, style="custom.TEntry")
+username_entry.grid(row=0, column=1, pady=(10, 5), padx=(0, 10), sticky="we")
 
-        # Login Button
-        self.login_button = QPushButton("Login")
-        self.login_button.clicked.connect(self.login)
-        layout.addWidget(self.login_button)
+# Password Label and Entry
+password_label = ttk.Label(container, text="Password:", borderwidth=1, relief="solid")
+password_label.grid(row=1, column=0, pady=(5, 10), sticky="w")
+password_entry = ttk.Entry(container, show="*")
+password_entry.grid(row=1, column=1, pady=(5, 10), padx=(0, 10), sticky="we")
 
-        central_widget.setLayout(layout)
+# Login Button
+login_button = ttk.Button(container, text="Login", command=login)
+login_button.grid(row=2, column=0, columnspan=2, pady=(10, 0), sticky="we")
 
-    def login(self):
-        username = self.username_entry.text()
-        password = self.password_entry.text()
-        # Here you can implement your login logic
-        print("Username:", username)
-        print("Password:", password)
-        # For demonstration purposes, just printing the inputs
+# Configure container grid to scale with the window and center the container
+container.columnconfigure(0, weight=1)
+container.columnconfigure(1, weight=1)
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = LoginWindow()
-    window.show()
-    sys.exit(app.exec_())
+root.mainloop()
