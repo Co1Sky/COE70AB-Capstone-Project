@@ -35,7 +35,8 @@ def run_login():
         else:
             print("The user does not already exist.")
             # Create a new DataFrame with the new user data
-            new_user = pd.DataFrame({'First Name': [firstName], 'Last Name': [lastName], 'Employee Number': [employee_number], 'Pan Angle': [60], 'Tilt Angle': [20]})
+            new_user = pd.DataFrame({'First Name': [firstName], 'Last Name': [lastName],
+                                     'Employee Number': [employee_number], 'Pan Angle': [60], 'Tilt Angle': [20]})
             # Append the new user data to the existing DataFrame
             userData = pd.concat([userData, new_user], ignore_index=True)
             # Write the updated DataFrame back to the CSV file
